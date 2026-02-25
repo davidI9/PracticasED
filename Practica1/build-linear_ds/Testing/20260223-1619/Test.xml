@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260223-1619-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.2.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Agathos"
+	OSRelease="6.18.9-arch1-2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Mon, 09 Feb 2026 17:16:33 +0000"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ModelName="13th Gen Intel(R) Core(TM) i7-1355U"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="20479"
+	TotalPhysicalMemory="15631"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="400.084"
+	>
+	<Testing>
+		<StartDateTime>Feb 23 17:20 CET</StartDateTime>
+		<StartTestTime>1771863605</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 23 17:20 CET</EndDateTime>
+		<EndTestTime>1771863605</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

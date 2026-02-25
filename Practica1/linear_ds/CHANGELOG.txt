@@ -1,0 +1,35 @@
+* 1.0
+- Start version.
+* 1.1
+- Remove default value for argument in list::find method.
+- Improved doc.
+* 1.2
+- Fixed bug when generating DO_NOT_MODIFY.TXT file.
+* 1.3
+- Refactor input/output format descriptions and improve error handling in list creation and folding methods.
+- Remove list iterator relative postconditions from pop_front() documentation and assertions. So the simple list
+  interface can be implemented without iterators.
+- Refactor DNode class to allow only node creation using dynamic memory static methods.
+- Refactor CDArray, Queue, List and Stack classes to remove shared pointer Ref and virtual constructors.
+- Enhance grow() method in CDArray to include postconditions for capacity and element integrity
+- Split all TADs to separate unit translations.
+- Improve performance by refactoring attribute get methods to return const references.
+- Automatize testing with CTest.
+* 1.4
+- Updated to course 24-25.
+* 1.4.1
+- Clean ListIterator representation for students.
+- Fixed. Make cInc and cDec functions inline due to are in include file.
+- Add default constructor to CDArray for improved usability.
+- Fix CDArray creation in test_cdarray.cpp to initialize with specified capacity.
+- Fix  is_valid and node methods removing not needed local var.
+- Fix goto_next and goto_prev methods to prevent dereferencing null nodes.
+* 1.5
+- Add front and back accessors and setters to CDArray class.
+- Separate test program for testing list node TAD.
+- Rename DNode to ListNode across the codebase and update related tests
+- Adapted to the new format to mark the assignment.
+- Add VSCode configuration files for C++ development.
+* 1.5.1
+- Implement fold/unfold as operators <</>>
+- Apply cero-rule to classes.

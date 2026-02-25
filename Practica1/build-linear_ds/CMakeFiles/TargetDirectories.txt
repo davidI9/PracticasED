@@ -1,0 +1,10 @@
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_list_node.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_list.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_ListNode.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_iterator.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_stack.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_cdarray.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test_queue.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/test.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/edit_cache.dir
+/home/david/Clases/ED/build-linear_ds/CMakeFiles/rebuild_cache.dir

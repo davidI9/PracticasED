@@ -1,0 +1,9 @@
+Creating cdarray with capacity 1 ... ok.
+Push back 0 ... ok.
+Push back 1 ... ok.
+Front value is 0
+Back value is 1
+Setting front the value -1 ... ok.
+Setting back the value -2 ... ok.
+Front value is -1
+Back value is -2

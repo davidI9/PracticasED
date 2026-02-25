@@ -1,0 +1,13 @@
+{
+  "TestCDArray":0.1,
+  "TestCDArrayFoldUnfold":0.1,
+  "TestQueue":0.05,
+  "TestSimpleListNode":0.1,
+  "TestSimpleList":0.1,
+  "TestListNode":0.1,
+  "TestListIterator":0.1,
+  "TestListEditing":0.1,
+  "TestListFoldUnfold":0.1,
+  "TestListAlgorithm":0.1,
+  "TestStack":0.05
+}
