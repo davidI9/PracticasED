@@ -184,6 +184,9 @@ protected:
     // Hint: use std::shared_ptr<T[]> to manage the block of allocated memory.
     size_t capacity_;
     size_t size_;
+    size_t front_;
+    size_t back_;
+    std::shared_ptr<T[]> data_;
     //
 };
 

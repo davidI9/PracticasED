@@ -1,3 +1,23 @@
-Start testing: Feb 23 17:20 CET
+Start testing: Feb 26 12:39 CET
 ----------------------------------------------------------
-End testing: Feb 23 17:20 CET
+2/11 Testing: TestCDArrayFoldUnfold
+2/11 Test: TestCDArrayFoldUnfold
+Command: "/usr/bin/python3.14" "run_tests.py" "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds//test_cdarray" "02_tests_cdarray_fold_unfold"
+Directory: /home/david/Clases/ED/PracticasED/Practica1/linear_ds
+"TestCDArrayFoldUnfold" start time: Feb 26 12:39 CET
+Output:
+----------------------------------------------------------
+Test running: 02_tests_cdarray_fold_unfold/00 ... [32mTest passed.[0m
+Test running: 02_tests_cdarray_fold_unfold/01 ... [32mTest passed.[0m
+Test running: 02_tests_cdarray_fold_unfold/02 ... [32mTest passed.[0m
+Test running: 02_tests_cdarray_fold_unfold/03 ... [32mTest passed.[0m
+4/4 tests passed.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"TestCDArrayFoldUnfold" end time: Feb 26 12:39 CET
+"TestCDArrayFoldUnfold" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 26 12:39 CET

@@ -22,14 +22,42 @@
 	TotalVirtualMemory="20479"
 	TotalPhysicalMemory="15631"
 	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="400.084"
+	ProcessorClockFrequency="567.703"
 	>
 	<Testing>
-		<StartDateTime>Feb 23 17:20 CET</StartDateTime>
-		<StartTestTime>1771863605</StartTestTime>
-		<TestList/>
-		<EndDateTime>Feb 23 17:20 CET</EndDateTime>
-		<EndTestTime>1771863605</EndTestTime>
+		<StartDateTime>Feb 26 12:39 CET</StartDateTime>
+		<StartTestTime>1772105981</StartTestTime>
+		<TestList>
+			<Test>/home/david/Clases/ED/PracticasED/Practica1/linear_ds/TestCDArrayFoldUnfold</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>TestCDArrayFoldUnfold</Name>
+			<Path>/home/david/Clases/ED/PracticasED/Practica1/linear_ds</Path>
+			<FullName>/home/david/Clases/ED/PracticasED/Practica1/linear_ds/TestCDArrayFoldUnfold</FullName>
+			<FullCommandLine>/usr/bin/python3.14 "run_tests.py" "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds//test_cdarray" "02_tests_cdarray_fold_unfold"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.11817</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.14 "run_tests.py" "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds//test_cdarray" "02_tests_cdarray_fold_unfold"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJwLSS0uUSgqzcvLzEu3UjAwii8BChTHJ6ckFhUlVsan5eekxJfmgSh9AwMFPT09BeloY6PcEJC2gsTi4tQUPelog1yuEBLMMaSSOUZUMscYjzkm+iYKYK0wUS4ACOdndQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 26 12:39 CET</EndDateTime>
+		<EndTestTime>1772105981</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

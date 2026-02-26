@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/david/Clases/ED/build-linear_ds"
+			"value" : "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -139,10 +139,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -439,7 +439,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/david/Clases/ED/build-linear_ds/CMakeFiles/pkgRedirects"
+			"value" : "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -499,7 +499,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/david/Clases/ED/linear_ds"
+			"value" : "/home/david/Clases/ED/PracticasED/Practica1/linear_ds"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1231,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/david/Clases/ED/build-linear_ds"
+			"value" : "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds"
 		},
 		{
 			"name" : "linear_ds_IS_TOP_LEVEL",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/david/Clases/ED/linear_ds"
+			"value" : "/home/david/Clases/ED/PracticasED/Practica1/linear_ds"
 		}
 	],
 	"kind" : "cache",

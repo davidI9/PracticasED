@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/david/Clases/ED/build-linear_ds/cmake_install.cmake"
+		"/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

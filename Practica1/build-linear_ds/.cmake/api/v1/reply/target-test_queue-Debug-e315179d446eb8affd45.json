@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test_ListNode"
+			"path" : "test_queue"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 22,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -54,7 +54,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/david/Clases/ED/linear_ds"
+					"path" : "/home/david/Clases/ED/PracticasED/Practica1/linear_ds"
 				}
 			],
 			"language" : "CXX",
@@ -72,7 +72,7 @@
 			]
 		}
 	],
-	"id" : "test_ListNode::@6890427a1f51a3e7e1df",
+	"id" : "test_queue::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -84,8 +84,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_ListNode",
-	"nameOnDisk" : "test_ListNode",
+	"name" : "test_queue",
+	"nameOnDisk" : "test_queue",
 	"paths" : 
 	{
 		"build" : ".",
@@ -107,9 +107,7 @@
 				1,
 				2,
 				3,
-				4,
-				5,
-				6
+				4
 			]
 		}
 	],
@@ -118,37 +116,27 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test_list.cpp",
+			"path" : "test_queue.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "list.hpp",
+			"path" : "queue.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "list_imp.hpp",
+			"path" : "queue_imp.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "list_node.hpp",
+			"path" : "stack.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "list_node_imp.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "list_iterator.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "list_iterator_imp.hpp",
+			"path" : "stack_imp.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

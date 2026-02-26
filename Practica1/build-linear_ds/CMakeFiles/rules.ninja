@@ -170,7 +170,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/david/Clases/ED/linear_ds -B/home/david/Clases/ED/build-linear_ds
+  command = /usr/bin/cmake --regenerate-during-build -S/home/david/Clases/ED/PracticasED/Practica1/linear_ds -B/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds
   description = Re-running CMake...
   generator = 1
 
