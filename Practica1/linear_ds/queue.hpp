@@ -74,6 +74,7 @@ public:
 protected:
   // A CDArray is used to implement the queue.
   CDArray<T> data_;
+  
 };
 
 #include <queue_imp.hpp>

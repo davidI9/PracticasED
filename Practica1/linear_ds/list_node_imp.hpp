@@ -14,7 +14,7 @@ template <class T>
 bool ListNode<T>::is_dummy() const
 {
     // TODO: recode with respect to your representation.
-    return false;
+    return(_item==nullptr);
     //
 }
 
@@ -22,7 +22,10 @@ template <class T>
 ListNode<T>::ListNode()
 {
     // TODO
-
+    This_=nullptr;
+    _next=nullptr;
+    _prev=nullptr;
+    _item=nullptr;
     //
     assert(is_dummy());
 }
@@ -31,7 +34,9 @@ template <class T>
 ListNode<T>::ListNode(T const &it)
 {
     // TODO
-
+    _item=std::shared_ptr<T>(new T(it));
+    _prev=nullptr;
+    _next=nullptr;
     //
     assert(!is_dummy());
     assert(next() == nullptr);
@@ -42,7 +47,9 @@ template <class T>
 ListNode<T>::ListNode(T const &it, Ref next_n)
 {
     // TODO
-
+    _item=std::shared_ptr<T>(new T(it));
+    _prev=nullptr;
+    _next=next_n;
     //
     assert(!is_dummy());
     assert(next() == next_n);
@@ -53,7 +60,9 @@ template <class T>
 ListNode<T>::ListNode(T const &it, Ref next_n, Ref prev_n)
 {
     // TODO
-
+    _item=std::shared_ptr<T>(new T(it));
+    _prev=prev_n;
+    _next=next_n;
     //
     assert(!is_dummy());
     assert(next() == next_n);
@@ -108,8 +117,7 @@ T const &ListNode<T>::item() const
     assert(!is_dummy());
 
     // TODO: recode with respect to your representation.
-    T fixme{};
-    return fixme;
+    return *_item;
     //
 }
 
@@ -117,7 +125,7 @@ template <class T>
 typename ListNode<T>::Ref ListNode<T>::prev() const
 {
     // TODO: recode with respect to your representation.
-    return nullptr;
+    return _prev;
     //
 }
 
@@ -125,7 +133,7 @@ template <class T>
 typename ListNode<T>::Ref ListNode<T>::next() const
 {
     // TODO: recode with respect to your representation.
-    return nullptr;
+    return _next;
     //
 }
 
@@ -133,7 +141,7 @@ template <class T>
 void ListNode<T>::set_item(const T &new_it)
 {
     // TODO
-
+    _item=std::shared_ptr<T>(new T(new_it));
     //
 }
 
@@ -141,7 +149,7 @@ template <class T>
 void ListNode<T>::set_prev(ListNode<T>::Ref n)
 {
     // TODO
-
+    _prev=n;
     //
     assert(n == prev());
 }
@@ -150,7 +158,7 @@ template <class T>
 void ListNode<T>::set_next(ListNode<T>::Ref n)
 {
     // TODO
-
+    _next=n;
     //
     assert(n == next());
 }
