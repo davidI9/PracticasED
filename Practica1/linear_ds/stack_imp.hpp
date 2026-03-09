@@ -15,7 +15,7 @@ template <class T>
 bool Stack<T>::is_empty() const
 {
     // TODO: reocde with respect to your representation.
-    return true;
+    return (l_.is_empty());
     //
 }
 
@@ -23,7 +23,7 @@ template <class T>
 size_t Stack<T>::size() const
 {
     // TODO: recode with respect to your representation.
-    return 0;
+    return (l_.size());
     //
 }
 
@@ -33,8 +33,7 @@ T const &Stack<T>::top() const
     assert(!is_empty());
 
     // TODO: recode with respect to your representation.
-    T fixme{};
-    return fixme;
+    return l_.front();
     //
 }
 
@@ -45,7 +44,7 @@ void Stack<T>::push(const T &new_it)
     size_t old_size = size();
 #endif
     // TODO
-
+    l_.push_front(new_it);
     //
     assert(top() == new_it);
     assert(size() == (old_size + 1));
@@ -59,7 +58,7 @@ void Stack<T>::pop()
 #endif
     assert(!is_empty());
     // TODO
-
+    l_.pop_front();
     //
     assert(size() == (old_size - 1));
 }

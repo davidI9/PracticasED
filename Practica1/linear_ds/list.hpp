@@ -258,7 +258,8 @@ protected:
   // Give a representation using a double linked list of nodes thats used
   // a dummy node to mark the "end" of the list.
   // Also we want a size() operation with O(1).
-
+  size_t size_;
+  typename ListNode<T>::Ref dummy_;
   //
 };
 

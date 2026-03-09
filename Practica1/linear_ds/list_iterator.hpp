@@ -144,7 +144,7 @@ protected:
 
     // TODO: give a representation.
     // Remember: a list iterator points to a list's node.
-
+    typename ListNode<T>::Ref _it;
     //
 };
 #include <list_iterator_imp.hpp>

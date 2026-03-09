@@ -7,8 +7,8 @@
 	CompilerVersion=""
 	OSName="Linux"
 	Hostname="Agathos"
-	OSRelease="6.18.9-arch1-2"
-	OSVersion="#1 SMP PREEMPT_DYNAMIC Mon, 09 Feb 2026 17:16:33 +0000"
+	OSRelease="6.18.13-arch1-1"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Wed, 25 Feb 2026 23:12:35 +0000"
 	OSPlatform="x86_64"
 	Is64Bits="1"
 	VendorString="GenuineIntel"
@@ -22,48 +22,14 @@
 	TotalVirtualMemory="20479"
 	TotalPhysicalMemory="15631"
 	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="1680.39"
+	ProcessorClockFrequency="1705.2"
 	>
 	<Testing>
-		<StartDateTime>Mar 02 17:34 CET</StartDateTime>
-		<StartTestTime>1772469288</StartTestTime>
-		<TestList>
-			<Test>/home/david/Clases/ED/PracticasED/Practica1/linear_ds/TestStack</Test>
-		</TestList>
-		<Test Status="failed">
-			<Name>TestStack</Name>
-			<Path>/home/david/Clases/ED/PracticasED/Practica1/linear_ds</Path>
-			<FullName>/home/david/Clases/ED/PracticasED/Practica1/linear_ds/TestStack</FullName>
-			<FullCommandLine>/usr/bin/python3.14 "run_tests.py" "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds//test_stack" "11_tests_stack"</FullCommandLine>
-			<Results>
-				<NamedMeasurement type="text/string" name="Exit Code">
-					<Value>Failed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Exit Value">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.437428</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Processors">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Completion Status">
-					<Value>Completed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>/usr/bin/python3.14 "run_tests.py" "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds//test_stack" "11_tests_stack"</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Environment">
-					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
-				</NamedMeasurement>
-				<Measurement>
-					<Value encoding="base64" compression="gzip">eJzdjzFvwjAQhff8BZbbgAE7BsRgUSQE3Tp08BZVqRUfzYnYsXxuq/77OnTp1J1un57eu9NnkDOk9xAovGlQqs0l4Jaz7a6yrkEIAbNmo7yZihcKxD06+KTcA6Y0JuhGh7DazZraV9P4Z6tB9qNH6ewHOXkaLCPLx7N8TrbL1Fn+xUoOFNCm1nGhcoF8FH2Mer3V8FSCvTloPcFiCc3ttYEHoJBfNByZMWUaA7wSt+hj/los53CxNKATVWX+FFT/XXB9/4K13MDNCaIt1RJ9A6WF6hs=</Value>
-				</Measurement>
-			</Results>
-		</Test>
-		<EndDateTime>Mar 02 17:34 CET</EndDateTime>
-		<EndTestTime>1772469289</EndTestTime>
+		<StartDateTime>Mar 09 09:43 CET</StartDateTime>
+		<StartTestTime>1773045839</StartTestTime>
+		<TestList/>
+		<EndDateTime>Mar 09 09:43 CET</EndDateTime>
+		<EndTestTime>1773045839</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

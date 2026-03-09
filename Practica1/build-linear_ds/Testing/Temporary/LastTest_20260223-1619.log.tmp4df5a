@@ -1,0 +1,34 @@
+Start testing: Mar 08 20:22 CET
+----------------------------------------------------------
+10/11 Testing: TestListAlgorithm
+10/11 Test: TestListAlgorithm
+Command: "/usr/bin/python3.14" "run_tests.py" "/home/david/Clases/ED/PracticasED/Practica1/build-linear_ds//test_list" "10_list_algorithms"
+Directory: /home/david/Clases/ED/PracticasED/Practica1/linear_ds
+"TestListAlgorithm" start time: Mar 08 20:22 CET
+Output:
+----------------------------------------------------------
+Test running: 10_list_algorithms/00 ... [32mTest passed.[0m
+Test running: 10_list_algorithms/01 ... [31mTest finished with error code -6[0m
+test_list: /home/david/Clases/ED/PracticasED/Practica1/linear_ds/list_imp.hpp:294: void List<T>::splice(const iterator&, List<T>&) [with T = int; iterator = ListIterator<int>]: Assertion `size() == (old_size + old_list2_size)' failed.
+
+Test running: 10_list_algorithms/02 ... [31mTest finished with error code -6[0m
+test_list: /home/david/Clases/ED/PracticasED/Practica1/linear_ds/list_node_imp.hpp:117: const T& ListNode<T>::item() const [with T = int]: Assertion `!is_dummy()' failed.
+
+Test running: 10_list_algorithms/03 ... [31mTest finished with error code -6[0m
+test_list: /home/david/Clases/ED/PracticasED/Practica1/linear_ds/list_node_imp.hpp:117: const T& ListNode<T>::item() const [with T = int]: Assertion `!is_dummy()' failed.
+
+Test running: 10_list_algorithms/04 ... [31mTest finished with error code -6[0m
+test_list: /home/david/Clases/ED/PracticasED/Practica1/linear_ds/list_node_imp.hpp:117: const T& ListNode<T>::item() const [with T = int]: Assertion `!is_dummy()' failed.
+
+Test running: 10_list_algorithms/05 ... [31mTest finished with error code -6[0m
+test_list: /home/david/Clases/ED/PracticasED/Practica1/linear_ds/list_node_imp.hpp:117: const T& ListNode<T>::item() const [with T = int]: Assertion `!is_dummy()' failed.
+
+Test running: 10_list_algorithms/06 ... [31mTest finished with error code -6[0m
+test_list: /home/david/Clases/ED/PracticasED/Practica1/linear_ds/list_node_imp.hpp:117: const T& ListNode<T>::item() const [with T = int]: Assertion `!is_dummy()' failed.
+
+Test running: 10_list_algorithms/07 ... [31mTest timed out.[0m
+Test running: 10_list_algorithms/08 ... [31mTest timed out.[0m
+Test running: 10_list_algorithms/09 ... [31mTest timed out.[0m
+Test running: 10_list_algorithms/10 ... [31mTest timed out.[0m
+1/11 tests passed.
+<end of output>

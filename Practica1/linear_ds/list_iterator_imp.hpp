@@ -16,7 +16,7 @@ bool ListIterator<T>::is_valid() const
 
     // TODO: recode with respect to your representation.
 
-    return false;
+    return (_it!=nullptr);
     //
 }
 
@@ -24,7 +24,7 @@ template <class T>
 ListIterator<T>::ListIterator()
 {
     // TODO
-
+    _it = nullptr;
     //
     assert(!is_valid());
 };
@@ -33,7 +33,7 @@ template <class T>
 ListIterator<T>::ListIterator(typename ListNode<T>::Ref const &n)
 {
     // TODO
-
+    _it = n;
     //
     assert(n == nullptr || is_valid());
     assert(n != nullptr || !is_valid());
@@ -44,8 +44,7 @@ T const &ListIterator<T>::item() const
 {
     assert(is_valid());
     // TODO: recode with respect to your representation.
-    T fixme{};
-    return fixme;
+    return _it->item();
     //
 }
 
@@ -55,7 +54,10 @@ ListIterator<T> ListIterator<T>::next(size_t dist) const
     assert(is_valid());
     ListIterator<T> ret_v;
     // TODO
-
+    ret_v._it=this->_it;
+    for(size_t i=0; i<dist; i++){
+        ret_v._it=ret_v._it->next();
+    }
     //
     return ret_v;
 }
@@ -66,7 +68,10 @@ ListIterator<T> ListIterator<T>::prev(size_t dist) const
     assert(is_valid());
     ListIterator<T> ret_v;
     // TODO
-
+    ret_v._it=this->_it;
+    for(size_t i=0; i<dist; i++){
+        ret_v._it=ret_v._it->prev();
+    }
     //
     return ret_v;
 }
@@ -78,7 +83,12 @@ size_t ListIterator<T>::distance(ListIterator<T> const &other) const
     assert(other.is_valid());
     size_t ret_v = 0;
     // TODO
-
+    ListIterator<T> aux;
+    aux = *this;
+    while(aux._it != other._it){
+        aux.goto_next();
+        ret_v++;
+    }
     //
     return ret_v;
 }
@@ -88,7 +98,7 @@ bool ListIterator<T>::operator==(ListIterator<T> const &o) const
 {
     // TODO: recode with respect to your representation.
     // Remember: two iterators are equal if both point to the same node.
-    return false;
+    return (this->_it == o._it);
     //
 }
 
@@ -98,7 +108,7 @@ bool ListIterator<T>::operator!=(ListIterator<T> const &o) const
 
     // TODO: recode with respect to your representation.
     // Remember: two iterators are equal if both point to the same node.
-    return false;
+    return (this->_it != o._it);
     //
 }
 
@@ -107,7 +117,7 @@ void ListIterator<T>::set_item(T const &it)
 {
     assert(is_valid());
     // TODO
-
+    this->_it->set_item(it);
     //
 }
 
@@ -116,7 +126,7 @@ void ListIterator<T>::goto_next(size_t dist)
 {
     assert(is_valid());
     // TODO
-
+    this->_it = this->next(dist)._it;
     //
 }
 
@@ -125,7 +135,7 @@ void ListIterator<T>::goto_prev(size_t dist)
 {
     assert(is_valid());
     // TODO
-
+    this->_it = this->prev(dist)._it;
     //
 }
 
@@ -134,7 +144,7 @@ typename ListNode<T>::Ref ListIterator<T>::node() const
 {
 
     // TODO: recode with respect to your representation.
-    return nullptr;
+    return _it;
     //
 }
 
@@ -142,7 +152,7 @@ template <class T>
 void ListIterator<T>::set_node(typename ListNode<T>::Ref const &n)
 {
     // TODO
-
+    _it=n;
     //
     assert(node() == n);
 }

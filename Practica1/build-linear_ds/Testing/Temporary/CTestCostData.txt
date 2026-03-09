@@ -1,13 +1,12 @@
-TestCDArray 18 0.143661
-TestCDArrayFoldUnfold 4 0.134756
-TestQueue 2 0.142421
-TestSimpleListNode 2 0.108726
-TestSimpleList 0 0
-TestListNode 2 0.118076
-TestListIterator 0 0
-TestListEditing 0 0
-TestListFoldUnfold 0 0
-TestListAlgorithm 0 0
-TestStack 0 0
+TestCDArray 32 0.128591
+TestCDArrayFoldUnfold 18 0.101967
+TestQueue 16 0.104803
+TestSimpleListNode 16 0.0904795
+TestSimpleList 9 0.0648446
+TestListNode 16 0.0900455
+TestListIterator 9 0.0768749
+TestListEditing 9 0.0697428
+TestListFoldUnfold 7 0.0778011
+TestListAlgorithm 6 0.225748
+TestStack 7 0.0694657
 ---
-TestStack
